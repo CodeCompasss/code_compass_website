@@ -13,10 +13,11 @@ export default function Projects() {
   >("all");
 
   // Fetch projects from JSON file
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
   const { data: projects = [], isLoading } = useQuery({
     queryKey: ["projects"],
     queryFn: async (): Promise<Project[]> => {
-      const response = await fetch("/data/projects.json");
+      const response = await fetch(`${basePath}/data/projects.json`);
       if (!response.ok) throw new Error("Failed to fetch projects");
       return response.json();
     },

@@ -20,10 +20,11 @@ import { Project } from "@/types/project";
 
 export default function Home() {
   // Fetch featured projects from JSON file
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
   const { data: allProjects = [] } = useQuery({
     queryKey: ["projects"],
     queryFn: async (): Promise<Project[]> => {
-      const response = await fetch("/data/projects.json");
+      const response = await fetch(`${basePath}/data/projects.json`);
       if (!response.ok) throw new Error("Failed to fetch projects");
       return response.json();
     },
@@ -273,7 +274,6 @@ export default function Home() {
           </div>
         </div>
       </section> */}
-      
     </div>
   );
 }

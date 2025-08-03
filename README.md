@@ -1,36 +1,141 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# CodeCompass Website
+<p align="center">
+  <a href="https://github.com/CodeCompasss/code_compass_website/actions">
+    <img src="https://img.shields.io/github/actions/workflow/status/CodeCompasss/code_compass_website/ci.yml?branch=main" alt="Build Status" />
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/github/license/CodeCompasss/code_compass_website" alt="License" />
+  </a>
+  <a href="https://github.com/CodeCompasss/code_compass_website/issues">
+    <img src="https://img.shields.io/github/issues/CodeCompasss/code_compass_website" alt="Issues" />
+  </a>
+  <a href="https://github.com/CodeCompasss/code_compass_website/pulls">
+    <img src="https://img.shields.io/github/issues-pr/CodeCompasss/code_compass_website" alt="Pull Requests" />
+  </a>
+  <a href="https://github.com/CodeCompasss/code_compass_website/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/CodeCompasss/code_compass_website" alt="Contributors" />
+  </a>
+</p>
 
-First, run the development server:
+<!-- ---
+
+<p align="center">
+  <img src="./public/assets/demo.gif" alt="CodeCompass Website Demo" width="700"/>
+</p>
+
+--- -->
+
+
+
+**CodeCompass Website** is the official platform for CodeCompass, an open-source organization building innovative tools for developers and students. The site showcases our projects, team, mission, and provides resources for the community.
+
+- 🌐 Built with Next.js, Tailwind CSS, and TypeScript
+- 🎨 Modern, responsive, and accessible UI
+- 🛠️ Project explorer for both developer and student tools
+- 🌙 Dark mode support
+- 🤝 Community-driven and open to contributions
+
+---
+
+## ✨ Features
+
+- **Project Gallery:** Browse all CodeCompass tools, filter by developer/student focus
+- **Team & Mission:** Meet the team and learn about our mission
+- **Contact & Donate:** Get in touch or support our work
+- **Dark/Light Mode:** Seamless theme switching
+- **Mobile Ready:** Fully responsive design
+
+---
+
+## 📸 Demo
+
+> ![Demo](./public/assets/code_compass_website.gif)
+
+---
+
+## 🛠️ Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Lucide Icons](https://lucide.dev/)
+- [TanStack Query](https://tanstack.com/query/latest)
+
+---
+
+## 🚩 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/CodeCompasss/code_compass_website.git
+cd code_compass_website
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Project Structure
 
-## Learn More
+```
+code_compass_website/
+├── public/
+│   ├── assets/
+│   └── data/
+├── src/
+│   ├── app/
+│   ├── components/
+│   ├── hooks/
+│   ├── lib/
+│   └── types/
+├── tailwind.config.ts
+├── postcss.config.mjs
+├── package.json
+└── ...
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+We welcome contributions! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-## Deploy on Vercel
+- Fork the repo
+- Create a new branch (`git checkout -b feature/your-feature`)
+- Commit your changes
+- Open a pull request
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+
+This project is licensed under the [Custom](LICENSE).
+
+---
+
+## 💬 Contact & Community
+
+<!-- - [GitHub Discussions](https://github.com/CodeCompasss/code_compass_website/discussions) -->
+<!-- - [Twitter](https://twitter.com/codecompass) -->
+- [LinkedIn](https://linkedin.com/company/codecompass)
+
+---
+
+<div align="center">
+  **Made with ❤️ by the CodeCompass Team**
+</div>

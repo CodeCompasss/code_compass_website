@@ -13,7 +13,17 @@ export default function Projects() {
   >("all");
 
   // Fetch projects from JSON file
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+  // Use basePath from next.config.js if available, fallback to ''
+  let basePath = "";
+  if (typeof window !== "undefined") {
+    // Try to get from <base> tag (set by Next.js for static export)
+    const baseEl = document.querySelector("base");
+    if (baseEl && baseEl.getAttribute("href")) {
+      basePath = baseEl.getAttribute("href")?.replace(/\/$/, "") || "";
+    }
+  } else if (process.env.NEXT_PUBLIC_BASE_PATH) {
+    basePath = process.env.NEXT_PUBLIC_BASE_PATH;
+  }
   const { data: projects = [], isLoading } = useQuery({
     queryKey: ["projects"],
     queryFn: async (): Promise<Project[]> => {

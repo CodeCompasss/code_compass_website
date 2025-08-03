@@ -37,14 +37,16 @@ export function ThemeProvider({
 
   // Load saved theme from localStorage (client only)
   useEffect(() => {
+    if (typeof window === "undefined") return;
     const storedTheme = localStorage.getItem(storageKey) as Theme | null;
     if (storedTheme) {
       setTheme(storedTheme);
     }
   }, [storageKey]);
 
-  // Apply theme to HTML root class
+  // Apply theme to HTML root class (client only)
   useEffect(() => {
+    if (typeof window === "undefined") return;
     const root = window.document.documentElement;
     root.classList.remove("light", "dark");
 
@@ -62,7 +64,9 @@ export function ThemeProvider({
   const value = {
     theme,
     setTheme: (newTheme: Theme) => {
-      localStorage.setItem(storageKey, newTheme);
+      if (typeof window !== "undefined") {
+        localStorage.setItem(storageKey, newTheme);
+      }
       setTheme(newTheme);
     },
   };

@@ -4,7 +4,7 @@
     "name": "Shadil am ",
     "role": "Founder & Lead Developer & Product Manager",
     "bio": "Visionary leader driving product strategy, development, and innovation. Expert in building scalable solutions and leading cross-functional teams.",
-    "image": "https://media.licdn.com/dms/image/v2/D5603AQEhhcxtHahFhA/profile-displayphoto-shrink_200_200/B56ZcHyDLnHoAc-/0/1748182250701?e=1756339200&v=beta&t=0i2eSzdAx8qjaRD4JEXO-r4va5p12RhjaP4JV7dae7M",
+    "image": "/assets/Team/shadil.jpeg",
     "github": "https://github.com/shadil-rayyan",
     "linkedin": "https://linkedin.com/in/shadilam",
     "specialties": ["Product Management", "Full Stack Development", "DevOps", "Leadership"]
@@ -14,7 +14,7 @@
     "name": "SOORAJ KRISHNA K P",
     "role": "Full Stack Developer",
     "bio": "Full stack developer with a passion for crafting seamless user experiences and robust backend systems. Skilled in modern web technologies and accessibility.",
-    "image": "https://media.licdn.com/dms/image/v2/D4E35AQF_SnbXfvnVyQ/profile-framedphoto-shrink_200_200/B4EZeRO_0DHwAY-/0/1750488317446?e=1754298000&v=beta&t=mZdlRUkSUVyhw_AA36VYk2o_eKenjQzi-CZ-EoO5yU0",
+    "image": "/assets/Team/sooraj.jpeg",
     "github": "https://github.com/Sooraj-krishna",
     "linkedin": "https://linkedin.com/in/sooraj-krishna-k-p",
     "specialties": ["React", "Node.js", "UI/UX Design", "TypeScript", "Accessibility"]
@@ -24,7 +24,7 @@
     "name": "Abhijith",
     "role": "Frontend Developer",
     "bio": "Frontend developer specializing in building responsive, accessible, and visually appealing user interfaces. Active contributor to open-source projects.",
-    "image": "https://media.licdn.com/dms/image/v2/D5603AQHohsG9wVmVSw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726019365517?e=1756339200&v=beta&t=DcZKPnQ8GH-z4JG2xC1vcBnTUPhnDcsIF-yRH_mZxYs",
+    "image": "/assets/Team/abhijith.jpeg",
     "github": "https://github.com/Abhijiths-s",
     "linkedin": "https://linkedin.com/in/abhijiths-s",
     "specialties": ["React", "CSS", "Accessibility", "Responsive Design"]
@@ -34,7 +34,7 @@
     "name": "Abhiram Ps",
     "role": "Developer and DevOps Engineer",
     "bio": "DevOps engineer and developer focused on automation, cloud infrastructure, and secure deployments. Advocates for open source and efficient workflows.",
-    "image": "https://media.licdn.com/dms/image/v2/D5603AQFZ8XnbhXjeFQ/profile-displayphoto-scale_200_200/B56ZenqD2yHQAY-/0/1750864512574?e=1756339200&v=beta&t=qwbLPMq8fF7kxUzPtNyT8zl3zFm2vRTYBDSVPwHqg0s",
+    "image": "/assets/Team/abhiram.jpeg",
     "github": "https://github.com/ft4bhi",
     "linkedin": "https://linkedin.com/in/abhirampss",
     "specialties": ["DevOps", "AWS", "CI/CD", "Authentication", "React"]
@@ -44,7 +44,7 @@
     "name": "Adwaith ",
     "role": "Marketer",
     "bio": "Marketing specialist skilled in product strategy, analytics, and community engagement. Drives growth and brand awareness for developer-focused products.",
-    "image": "https://media.licdn.com/dms/image/v2/D5603AQG7Dwg1ZY4gJQ/profile-displayphoto-shrink_200_200/B56ZRRBx4DG8AY-/0/1736526216779?e=1756339200&v=beta&t=8x07fACy0ivGEfTNXXKKgUV2i36ooj_PUNuQIodB4so",
+    "image": "/assets/Team/adwaith.jpeg",
     "linkedin": "https://linkedin.com/in/adwaith-b-6013a92a0",
     "specialties": ["Product Strategy", "Marketing", "Analytics", "Community Building"]
   }
